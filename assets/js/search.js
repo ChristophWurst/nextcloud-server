@@ -1,3 +1,3 @@
 var typedoc = typedoc || {};
             typedoc.search = typedoc.search || {};
-            typedoc.search.data = {"kinds":{"1":"External module","64":"Function"},"rows":[{"id":0,"kind":1,"name":"\"requestToken\"","url":"modules/_requesttoken_.html","classes":"tsd-kind-external-module"},{"id":1,"kind":64,"name":"getRequestToken","url":"modules/_requesttoken_.html#getrequesttoken","classes":"tsd-kind-function tsd-parent-kind-external-module","parent":"\"requestToken\""},{"id":2,"kind":1,"name":"\"index\"","url":"modules/_index_.html","classes":"tsd-kind-external-module"}]};
+            typedoc.search.data = {"kinds":{"1":"External module","64":"Function"},"rows":[{"id":0,"kind":1,"name":"\"auth\"","url":"modules/_auth_.html","classes":"tsd-kind-external-module"},{"id":1,"kind":64,"name":"getRequestToken","url":"modules/_auth_.html#getrequesttoken","classes":"tsd-kind-function tsd-parent-kind-external-module tsd-is-not-exported","parent":"\"auth\""}]};
