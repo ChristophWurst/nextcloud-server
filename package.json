@@ -2,8 +2,8 @@
   "name": "nextcloud-server",
   "version": "0.15.0",
   "description": "Stable, documented and versioned wrapper of the Nextcloud Server API",
-  "main": "src/index.js",
   "scripts": {
+    "dev": "tsc --watch",
     "build": "tsc",
     "build:doc": "typedoc --out dist/doc src",
     "test": "echo \"Error: no test specified\" && exit 1"
