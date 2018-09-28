@@ -1,0 +1,22 @@
+{
+  "name": "nextcloud-server",
+  "version": "0.15.0",
+  "description": "Stable, documented and versioned wrapper of the Nextcloud Server API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChristophWurst/nextcloud-server.git"
+  },
+  "keywords": [
+    "nextcloud"
+  ],
+  "author": "Christoph Wurst",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/ChristophWurst/nextcloud-server/issues"
+  },
+  "homepage": "https://github.com/ChristophWurst/nextcloud-server#readme"
+}
