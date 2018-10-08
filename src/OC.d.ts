@@ -1,5 +1,6 @@
 declare namespace OC {
     let requestToken: String;
+    let currentUser: String|null;
 
     function generateUrl(app: String, url: String, params?: Object): String;
 
