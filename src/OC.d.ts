@@ -1,6 +1,11 @@
 declare namespace OC {
     let requestToken: String;
-    let currentUser: String|null;
+
+    interface CurrentUser {
+        uid: String|false,
+        displayName: String|null,
+    }
+    function getCurrentUser(): CurrentUser;
 
     function generateUrl(app: String, url: String, params?: Object): String;
 
