@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>&quot;l10n&quot; | nextcloud-server</title>
+	<title>&quot;format&quot; | nextcloud-server</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -56,10 +56,10 @@
 					<a href="../globals.html">Globals</a>
 				</li>
 				<li>
-					<a href="_l10n_.html">&quot;l10n&quot;</a>
+					<a href="_format_.html">&quot;format&quot;</a>
 				</li>
 			</ul>
-			<h1>External module &quot;l10n&quot;</h1>
+			<h1>External module &quot;format&quot;</h1>
 		</div>
 	</div>
 </header>
@@ -73,7 +73,7 @@
 						<section class="tsd-index-section ">
 							<h3>Functions</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-function tsd-parent-kind-external-module"><a href="_l10n_.html#getlocale" class="tsd-kind-icon">get<wbr>Locale</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-external-module"><a href="_format_.html#formatfilesize" class="tsd-kind-icon">format<wbr>File<wbr>Size</a></li>
 							</ul>
 						</section>
 					</div>
@@ -82,21 +82,21 @@
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Functions</h2>
 				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-external-module">
-					<a name="getlocale" class="tsd-anchor"></a>
-					<h3>get<wbr>Locale</h3>
+					<a name="formatfilesize" class="tsd-anchor"></a>
+					<h3>format<wbr>File<wbr>Size</h3>
 					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-external-module">
-						<li class="tsd-signature tsd-kind-icon">get<wbr>Locale<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">String</span></li>
+						<li class="tsd-signature tsd-kind-icon">format<wbr>File<wbr>Size<span class="tsd-signature-symbol">(</span>size<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Number</span>, skipSmallSize<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">String</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/ChristophWurst/nextcloud-server/blob/85f0d58/src/l10n.ts#L6">l10n.ts:6</a></li>
+									<li>Defined in <a href="https://github.com/ChristophWurst/nextcloud-server/blob/85f0d58/src/format.ts#L9">format.ts:9</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
 								<div class="lead">
-									<p>Returns the user&#39;s locale</p>
+									<p>Returns a human readable file size</p>
 								</div>
 								<dl class="tsd-comment-tags">
 									<dt>since</dt>
@@ -104,6 +104,18 @@
 									</dd>
 								</dl>
 							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>size: <span class="tsd-signature-type">Number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Size in bytes</p>
+									</div>
+								</li>
+								<li>
+									<h5>skipSmallSize: <span class="tsd-signature-type">Boolean</span></h5>
+								</li>
+							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">String</span></h4>
 						</li>
 					</ul>
@@ -119,10 +131,10 @@
 					<li class=" tsd-kind-external-module">
 						<a href="_auth_.html">"auth"</a>
 					</li>
-					<li class=" tsd-kind-external-module">
+					<li class="current tsd-kind-external-module">
 						<a href="_format_.html">"format"</a>
 					</li>
-					<li class="current tsd-kind-external-module">
+					<li class=" tsd-kind-external-module">
 						<a href="_l10n_.html">"l10n"</a>
 					</li>
 					<li class=" tsd-kind-external-module">
@@ -136,7 +148,7 @@
 			<nav class="tsd-navigation secondary menu-sticky">
 				<ul class="before-current">
 					<li class=" tsd-kind-function tsd-parent-kind-external-module">
-						<a href="_l10n_.html#getlocale" class="tsd-kind-icon">get<wbr>Locale</a>
+						<a href="_format_.html#formatfilesize" class="tsd-kind-icon">format<wbr>File<wbr>Size</a>
 					</li>
 				</ul>
 			</nav>
