@@ -1,6 +1,6 @@
 {
   "name": "nextcloud-server",
-  "version": "0.15.1",
+  "version": "0.15.2",
   "description": "Stable, documented and versioned wrapper of the Nextcloud Server API",
   "scripts": {
     "dev": "tsc --watch",
