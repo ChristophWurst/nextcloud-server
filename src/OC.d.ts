@@ -22,3 +22,5 @@ declare namespace OC {
         function showTemporary(text: String, options?: NotificationOptions): JQuery;
     }
 }
+
+declare function humanFileSize(size: Number, skipSmallSizes: Boolean): String;
