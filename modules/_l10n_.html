@@ -74,6 +74,8 @@
 							<h3>Functions</h3>
 							<ul class="tsd-index-list">
 								<li class="tsd-kind-function tsd-parent-kind-external-module"><a href="_l10n_.html#getlocale" class="tsd-kind-icon">get<wbr>Locale</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-external-module"><a href="_l10n_.html#translate" class="tsd-kind-icon">translate</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-external-module"><a href="_l10n_.html#translateplural" class="tsd-kind-icon">translate<wbr>Plural</a></li>
 							</ul>
 						</section>
 					</div>
@@ -91,7 +93,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/ChristophWurst/nextcloud-server/blob/7880216/src/l10n.ts#L6">l10n.ts:6</a></li>
+									<li>Defined in <a href="https://github.com/ChristophWurst/nextcloud-server/blob/93f4843/src/l10n.ts#L6">l10n.ts:6</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -104,6 +106,126 @@
 									</dd>
 								</dl>
 							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">String</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-external-module">
+					<a name="translate" class="tsd-anchor"></a>
+					<h3>translate</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-external-module">
+						<li class="tsd-signature tsd-kind-icon">translate<span class="tsd-signature-symbol">(</span>app<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">String</span>, text<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">String</span>, vars<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Object</span>, count<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Number</span>, options<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">OC.L10N.TranslationOptions</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">String</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ChristophWurst/nextcloud-server/blob/93f4843/src/l10n.ts#L23">l10n.ts:23</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Translate a string</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>since</dt>
+									<dd><p>15.0.0</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>app: <span class="tsd-signature-type">String</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>the id of the app for which to translate the string</p>
+									</div>
+								</li>
+								<li>
+									<h5>text: <span class="tsd-signature-type">String</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>the string to translate</p>
+									</div>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> vars: <span class="tsd-signature-type">Object</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>map of placeholder key to value</p>
+									</div>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> count: <span class="tsd-signature-type">Number</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> options: <span class="tsd-signature-type">OC.L10N.TranslationOptions</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">String</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-external-module">
+					<a name="translateplural" class="tsd-anchor"></a>
+					<h3>translate<wbr>Plural</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-external-module">
+						<li class="tsd-signature tsd-kind-icon">translate<wbr>Plural<span class="tsd-signature-symbol">(</span>app<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">String</span>, textSingular<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">String</span>, textPlural<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">String</span>, count<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Number</span>, vars<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Object</span>, options<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">OC.L10N.TranslationOptions</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">String</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/ChristophWurst/nextcloud-server/blob/93f4843/src/l10n.ts#L41">l10n.ts:41</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Translate a plural string</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>since</dt>
+									<dd><p>15.0.0</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>app: <span class="tsd-signature-type">String</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>the id of the app for which to translate the string</p>
+									</div>
+								</li>
+								<li>
+									<h5>textSingular: <span class="tsd-signature-type">String</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>the string to translate for exactly one object</p>
+									</div>
+								</li>
+								<li>
+									<h5>textPlural: <span class="tsd-signature-type">String</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>the string to translate for n objects</p>
+									</div>
+								</li>
+								<li>
+									<h5>count: <span class="tsd-signature-type">Number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>number to determine whether to use singular or plural</p>
+									</div>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> vars: <span class="tsd-signature-type">Object</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>of placeholder key to value</p>
+									</div>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> options: <span class="tsd-signature-type">OC.L10N.TranslationOptions</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>options object</p>
+									</div>
+								</li>
+							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">String</span></h4>
 						</li>
 					</ul>
@@ -140,6 +262,12 @@
 				<ul class="before-current">
 					<li class=" tsd-kind-function tsd-parent-kind-external-module">
 						<a href="_l10n_.html#getlocale" class="tsd-kind-icon">get<wbr>Locale</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-external-module">
+						<a href="_l10n_.html#translate" class="tsd-kind-icon">translate</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-external-module">
+						<a href="_l10n_.html#translateplural" class="tsd-kind-icon">translate<wbr>Plural</a>
 					</li>
 				</ul>
 			</nav>
