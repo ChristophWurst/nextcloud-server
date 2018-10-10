@@ -7,7 +7,15 @@ declare namespace OC {
     }
     function getCurrentUser(): CurrentUser;
 
+    function getRootPath(): String;
+    function linkTo(app: String, file: String): String;
+    function linkToRemoteBase(service: String): String;
+    function linkToRemote(service: String): String;
+    function linkToOCS(service: String, version: Number): String;
     function generateUrl(app: String, url: String, params?: Object): String;
+    function filePath(app: String, type: String, file: String): String;
+    function imagePath(app: String, file: String): String;
+    function encodePath(path: String): String;
 
     function getLocale(): String;
 
