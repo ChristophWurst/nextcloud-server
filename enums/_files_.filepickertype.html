@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>&quot;format&quot; | nextcloud-server</title>
+	<title>FilePickerType | nextcloud-server</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -56,10 +56,13 @@
 					<a href="../globals.html">Globals</a>
 				</li>
 				<li>
-					<a href="_format_.html">&quot;format&quot;</a>
+					<a href="../modules/_files_.html">&quot;files&quot;</a>
+				</li>
+				<li>
+					<a href="_files_.filepickertype.html">FilePickerType</a>
 				</li>
 			</ul>
-			<h1>External module &quot;format&quot;</h1>
+			<h1>Enumeration FilePickerType</h1>
 		</div>
 	</div>
 </header>
@@ -70,55 +73,59 @@
 				<h2>Index</h2>
 				<section class="tsd-panel tsd-index-panel">
 					<div class="tsd-index-content">
-						<section class="tsd-index-section ">
-							<h3>Functions</h3>
+						<section class="tsd-index-section tsd-is-not-exported">
+							<h3>Enumeration members</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-function tsd-parent-kind-external-module"><a href="_format_.html#formatfilesize" class="tsd-kind-icon">format<wbr>File<wbr>Size</a></li>
+								<li class="tsd-kind-enum-member tsd-parent-kind-enum tsd-is-not-exported"><a href="_files_.filepickertype.html#choose" class="tsd-kind-icon">Choose</a></li>
+								<li class="tsd-kind-enum-member tsd-parent-kind-enum tsd-is-not-exported"><a href="_files_.filepickertype.html#copy" class="tsd-kind-icon">Copy</a></li>
+								<li class="tsd-kind-enum-member tsd-parent-kind-enum tsd-is-not-exported"><a href="_files_.filepickertype.html#copymove" class="tsd-kind-icon">Copy<wbr>Move</a></li>
+								<li class="tsd-kind-enum-member tsd-parent-kind-enum tsd-is-not-exported"><a href="_files_.filepickertype.html#move" class="tsd-kind-icon">Move</a></li>
 							</ul>
 						</section>
 					</div>
 				</section>
 			</section>
-			<section class="tsd-panel-group tsd-member-group ">
-				<h2>Functions</h2>
-				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-external-module">
-					<a name="formatfilesize" class="tsd-anchor"></a>
-					<h3>format<wbr>File<wbr>Size</h3>
-					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-external-module">
-						<li class="tsd-signature tsd-kind-icon">format<wbr>File<wbr>Size<span class="tsd-signature-symbol">(</span>size<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Number</span>, skipSmallSize<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">String</span></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/ChristophWurst/nextcloud-server/blob/7880216/src/format.ts#L9">format.ts:9</a></li>
-								</ul>
-							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Returns a human readable file size</p>
-								</div>
-								<dl class="tsd-comment-tags">
-									<dt>since</dt>
-									<dd><p>15.0.0</p>
-									</dd>
-								</dl>
-							</div>
-							<h4 class="tsd-parameters-title">Parameters</h4>
-							<ul class="tsd-parameters">
-								<li>
-									<h5>size: <span class="tsd-signature-type">Number</span></h5>
-									<div class="tsd-comment tsd-typography">
-										<p>Size in bytes</p>
-									</div>
-								</li>
-								<li>
-									<h5>skipSmallSize: <span class="tsd-signature-type">Boolean</span></h5>
-								</li>
-							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">String</span></h4>
-						</li>
-					</ul>
+			<section class="tsd-panel-group tsd-member-group tsd-is-not-exported">
+				<h2>Enumeration members</h2>
+				<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum tsd-is-not-exported">
+					<a name="choose" class="tsd-anchor"></a>
+					<h3>Choose</h3>
+					<div class="tsd-signature tsd-kind-icon">Choose<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> =&nbsp;1</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/ChristophWurst/nextcloud-server/blob/7880216/src/files.ts#L2">files.ts:2</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum tsd-is-not-exported">
+					<a name="copy" class="tsd-anchor"></a>
+					<h3>Copy</h3>
+					<div class="tsd-signature tsd-kind-icon">Copy<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> =&nbsp;3</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/ChristophWurst/nextcloud-server/blob/7880216/src/files.ts#L4">files.ts:4</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum tsd-is-not-exported">
+					<a name="copymove" class="tsd-anchor"></a>
+					<h3>Copy<wbr>Move</h3>
+					<div class="tsd-signature tsd-kind-icon">Copy<wbr>Move<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> =&nbsp;4</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/ChristophWurst/nextcloud-server/blob/7880216/src/files.ts#L5">files.ts:5</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum tsd-is-not-exported">
+					<a name="move" class="tsd-anchor"></a>
+					<h3>Move</h3>
+					<div class="tsd-signature tsd-kind-icon">Move<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> =&nbsp;2</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/ChristophWurst/nextcloud-server/blob/7880216/src/files.ts#L3">files.ts:3</a></li>
+						</ul>
+					</aside>
 				</section>
 			</section>
 		</div>
@@ -129,29 +136,50 @@
 						<a href="../globals.html"><em>Globals</em></a>
 					</li>
 					<li class=" tsd-kind-external-module">
-						<a href="_auth_.html">"auth"</a>
-					</li>
-					<li class=" tsd-kind-external-module">
-						<a href="_files_.html">"files"</a>
+						<a href="../modules/_auth_.html">"auth"</a>
 					</li>
 					<li class="current tsd-kind-external-module">
-						<a href="_format_.html">"format"</a>
+						<a href="../modules/_files_.html">"files"</a>
 					</li>
 					<li class=" tsd-kind-external-module">
-						<a href="_l10n_.html">"l10n"</a>
+						<a href="../modules/_format_.html">"format"</a>
 					</li>
 					<li class=" tsd-kind-external-module">
-						<a href="_notifications_.html">"notifications"</a>
+						<a href="../modules/_l10n_.html">"l10n"</a>
 					</li>
 					<li class=" tsd-kind-external-module">
-						<a href="_router_.html">"router"</a>
+						<a href="../modules/_notifications_.html">"notifications"</a>
+					</li>
+					<li class=" tsd-kind-external-module">
+						<a href="../modules/_router_.html">"router"</a>
 					</li>
 				</ul>
 			</nav>
 			<nav class="tsd-navigation secondary menu-sticky">
 				<ul class="before-current">
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-enum tsd-parent-kind-external-module tsd-is-not-exported">
+						<a href="_files_.filepickertype.html" class="tsd-kind-icon">File<wbr>Picker<wbr>Type</a>
+						<ul>
+							<li class=" tsd-kind-enum-member tsd-parent-kind-enum tsd-is-not-exported">
+								<a href="_files_.filepickertype.html#choose" class="tsd-kind-icon">Choose</a>
+							</li>
+							<li class=" tsd-kind-enum-member tsd-parent-kind-enum tsd-is-not-exported">
+								<a href="_files_.filepickertype.html#copy" class="tsd-kind-icon">Copy</a>
+							</li>
+							<li class=" tsd-kind-enum-member tsd-parent-kind-enum tsd-is-not-exported">
+								<a href="_files_.filepickertype.html#copymove" class="tsd-kind-icon">Copy<wbr>Move</a>
+							</li>
+							<li class=" tsd-kind-enum-member tsd-parent-kind-enum tsd-is-not-exported">
+								<a href="_files_.filepickertype.html#move" class="tsd-kind-icon">Move</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
 					<li class=" tsd-kind-function tsd-parent-kind-external-module">
-						<a href="_format_.html#formatfilesize" class="tsd-kind-icon">format<wbr>File<wbr>Size</a>
+						<a href="../modules/_files_.html#pickfileordirectory" class="tsd-kind-icon">pick<wbr>File<wbr>OrDirectory</a>
 					</li>
 				</ul>
 			</nav>
