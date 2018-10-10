@@ -2,8 +2,8 @@ declare namespace OC {
     let requestToken: String;
 
     interface CurrentUser {
-        uid: String|false,
-        displayName: String|null,
+        uid: String | false,
+        displayName: String | null,
     }
     function getCurrentUser(): CurrentUser;
 
@@ -24,6 +24,15 @@ declare namespace OC {
             mimeTypeFilter: Array<String>,
             modal: Boolean,
             type: Number): void;
+    }
+
+    namespace L10N {
+        interface TranslationOptions {
+            escaped?: Boolean
+        }
+
+        function translate(app: String, text: String, vars?: Object, count?: Number, options?: TranslationOptions): String;
+        function translatePlural(app: String, textSingular: String, textPlural: String, count: Number, vars?: Object, options?: TranslationOptions): String;
     }
 
     namespace Notifications {
