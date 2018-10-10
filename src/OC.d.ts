@@ -11,6 +11,21 @@ declare namespace OC {
 
     function getLocale(): String;
 
+    namespace dialogs {
+        const FILEPICKER_TYPE_CHOOSE = 1;
+        const FILEPICKER_TYPE_MOVE = 2;
+        const FILEPICKER_TYPE_COPY = 3;
+        const FILEPICKER_TYPE_COPY_MOVE = 4;
+
+        function filepicker(
+            title: String,
+            callback: Function,
+            multiselect: Boolean,
+            mimeTypeFilter: Array<String>,
+            modal: Boolean,
+            type: Number): void;
+    }
+
     namespace Notifications {
         interface NotificationOptions {
             isHtml?: boolean,
