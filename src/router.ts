@@ -8,8 +8,8 @@ export function getRootUrl(): String {
 /**
  * @since 15.0.0
  */
-export function generateUrl(app: String, url: String, params?: Object): String {
-    return OC.generateUrl(app, url, params)
+export function generateUrl(url: String, params?: Object, options?: OC.UrlOptions): String {
+    return OC.generateUrl(url, params, options)
 }
 
 /**

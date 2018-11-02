@@ -12,7 +12,10 @@ declare namespace OC {
     function linkToRemoteBase(service: String): String;
     function linkToRemote(service: String): String;
     function linkToOCS(service: String, version: Number): String;
-    function generateUrl(app: String, url: String, params?: Object): String;
+    interface UrlOptions {
+        escape: boolean
+    }
+    function generateUrl(url: String, params?: Object, options?: UrlOptions): String;
     function filePath(app: String, type: String, file: String): String;
     function imagePath(app: String, file: String): String;
     function encodePath(path: String): String;
