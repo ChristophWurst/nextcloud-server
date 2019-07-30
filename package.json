@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/ChristophWurst/nextcloud-server#readme",
   "devDependencies": {
-    "typedoc": "^0.14.2",
+    "typedoc": "^0.15.0",
     "typescript": "^3.1.1"
   },
   "dependencies": {
